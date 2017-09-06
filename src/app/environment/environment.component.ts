@@ -1,3 +1,4 @@
+import { Meta, Title } from '@angular/platform-browser';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnvironmentComponent implements OnInit {
 
-  constructor() { }
+  constructor(meta: Meta, title: Title) {
+    title.setTitle('rfurman - Environment');
+
+    meta.addTags([
+      { name: 'author', content: 'rfurman' },
+      { name: 'keywords', content: 'rfurman, angular, bootstrap, unity, minecraft, overviewer' },
+      { name: 'description', content: 'The environment of my hobby home server!' }
+    ]);
+  }
 
   ngOnInit() {
   }
