@@ -1,3 +1,3 @@
 # web-rfurman
 
-This is a quick repo for the rfurman website to keep my code version. We all love GitHub!
+A quick repo to version some website code. We all love GitHub!
