@@ -35,7 +35,7 @@ class App extends Component {
 
             <Nav>
               <NavItem componentClass={Link} href="/demonshanker2/" to="/demonshanker2/" active={window.location.pathname === '/demonshanker2/'}>Demon Shanker 2</NavItem>
-              <NavItem componentClass={Link} href="/minecraftmap" to="/minecraftmap" active={window.location.pathname === '/minecraftmap'}>Minecraft Map</NavItem>
+              {/* <NavItem componentClass={Link} href="/minecraftmap" to="/minecraftmap" active={window.location.pathname === '/minecraftmap'}>Minecraft Map</NavItem> */}
             </Nav>
 
           </Navbar>
@@ -44,7 +44,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/demonshanker2/" component={DemonShanker2} />
-              <Route path="/minecraftmap" component={MinecraftMap} />
+              {/* <Route path="/minecraftmap" component={MinecraftMap} /> */}
             </Switch>
           </Grid>
         </div>

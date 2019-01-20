@@ -7,7 +7,7 @@ class Home extends Component {
       <div>
         <Jumbotron>
           <h1>rfurman</h1>
-          <p>Welcome to my corner of the web. Some odds and ends around here.</p>
+          <p>An amalgam of random side projects.</p>
         </Jumbotron>
 
         <Row>
@@ -18,12 +18,12 @@ class Home extends Component {
                 <Row>
                   <Col md={6}>
                     <p>
-                      This site is being served by an old machine that I keep running as a hobby server. Cost is low (electricity) and the added
+                      This site is being served by a recently updated machine that I keep running as a hobby server. Cost is low (electricity) and the added
                       benefit is an ongoing learning experience for me.
                     </p>
                     <p>
                       I also happen to be lucky enough to own a condo in a new complex with
-                      fibre to the home (FTTH) provided by Shaw. This gives me a very respectable 150 Mbps download and 15 Mbps upload, though
+                      fibre to the home (FTTH) provided by Shaw. This gives me a very respectable 300 Mbps download and 15 Mbps upload, though
                       I can scale this up to 1000 Mbps download and 50 Mbps upload.
                     </p>
                   </Col>
