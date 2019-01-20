@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EnvironmentComponent } from './environment.component';
+import { LD29Component } from './ld29.component';
 
-describe('EnvironmentComponent', () => {
-  let component: EnvironmentComponent;
-  let fixture: ComponentFixture<EnvironmentComponent>;
+describe('LD29Component', () => {
+  let component: LD29Component;
+  let fixture: ComponentFixture<LD29Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EnvironmentComponent ]
+      declarations: [ LD29Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EnvironmentComponent);
+    fixture = TestBed.createComponent(LD29Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -5,14 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MinecraftComponent } from './minecraft/minecraft.component';
-import { GamesComponent } from './games/games.component';
-import { EnvironmentComponent } from './environment/environment.component';
+import { LD29Component } from './ld29/ld29.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'games', component: GamesComponent },
+  { path: 'games', component: LD29Component },
   { path: 'minecraft', component: MinecraftComponent },
-  { path: 'environment', component: EnvironmentComponent },
   {
     path: '',
     redirectTo: '/home',
@@ -24,9 +22,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    GamesComponent,
+    LD29Component,
     MinecraftComponent,
-    EnvironmentComponent
   ],
   imports: [
     RouterModule.forRoot(
