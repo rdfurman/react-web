@@ -113,26 +113,6 @@ class Home extends Component {
               </Table>
             </Panel>
           </Col>
-
-          <Col md={6}>
-            <Panel>
-              <Panel.Heading>Demon Shanker 2</Panel.Heading>
-              <Panel.Body>
-                <strong>Created for Ludum Dare 29. Built with Unity by a team of 5, with me sharing design and coding duties.</strong>
-                <p>
-                  This is no ordinary hobo, his name is Demon Shanker! Only Demon Shanker can see demons for what they truly
-                  are. Take a swig to activate vodka vision and let the shankin' begin. Keep on shankin' until you run out of vodka
-                  but be careful, shankin' too many humans may draw attention to yourself...
-                </p>
-              </Panel.Body>
-              <Panel.Footer>
-                <ButtonGroup justified>
-                  <Button href="http://ludumdare.com/compo/ludum-dare-29/?action=preview&uid=37215" target="_blank" rel="noopener">Ludum Dare Entry <Glyphicon glyph="glyphicon-new-window" /></Button>
-                  <Button href="/demonshanker2">Play</Button>
-                </ButtonGroup>
-              </Panel.Footer>
-            </Panel>
-          </Col>
         </Row>
       </div>
     );

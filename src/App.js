@@ -10,8 +10,8 @@ const Home = Loadable({
   loading: Loading
 });
 
-const DemonShanker2 = Loadable({
-  loader: () => import('./routes/DemonShanker2'),
+const LudumDare = Loadable({
+  loader: () => import('./routes/LudumDare'),
   loading: Loading
 });
 
@@ -34,7 +34,7 @@ class App extends Component {
             </Navbar.Header>
 
             <Nav>
-              <NavItem componentClass={Link} href="/demonshanker2/" to="/demonshanker2/" active={window.location.pathname === '/demonshanker2/'}>Demon Shanker 2</NavItem>
+              <NavItem componentClass={Link} href="/ludumdare" to="/ludumdare" active={window.location.pathname === '/ludumdare'}>Ludum Dare</NavItem>
               <NavItem componentClass={Link} href="/photography" to="/photography" active={window.location.pathname === '/photography'}>Photography</NavItem>
             </Nav>
 
@@ -43,7 +43,7 @@ class App extends Component {
           <Grid fluid>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/demonshanker2/" component={DemonShanker2} />
+              <Route path="/ludumdare" component={LudumDare} />
               <Route path="/photography" component={Photography} />
             </Switch>
           </Grid>
