@@ -28,7 +28,7 @@ class Home extends Component {
                     </p>
                   </Col>
                   <Col md={6}>
-                    <a href="http://beta.speedtest.net/result/6574660585"><Image responsive rounded src="http://beta.speedtest.net/result/6574660585.png" /></a>
+                    <a href="http://www.speedtest.net/result/8055604422"><Image responsive rounded src="http://www.speedtest.net/result/8055604422.png" /></a>
                   </Col>
                 </Row>
               </Panel.Body>

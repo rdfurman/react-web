@@ -15,6 +15,11 @@ const DemonShanker2 = Loadable({
   loading: Loading
 });
 
+const Photography = Loadable({
+  loader: () => import('./routes/Photography'),
+  loading: Loading
+});
+
 class App extends Component {
   render() {
     return (
@@ -30,7 +35,7 @@ class App extends Component {
 
             <Nav>
               <NavItem componentClass={Link} href="/demonshanker2/" to="/demonshanker2/" active={window.location.pathname === '/demonshanker2/'}>Demon Shanker 2</NavItem>
-              {/* <NavItem componentClass={Link} href="/minecraftmap" to="/minecraftmap" active={window.location.pathname === '/minecraftmap'}>Minecraft Map</NavItem> */}
+              <NavItem componentClass={Link} href="/photography" to="/photography" active={window.location.pathname === '/photography'}>Photography</NavItem>
             </Nav>
 
           </Navbar>
@@ -39,7 +44,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/demonshanker2/" component={DemonShanker2} />
-              {/* <Route path="/minecraftmap" component={MinecraftMap} /> */}
+              <Route path="/photography" component={Photography} />
             </Switch>
           </Grid>
         </div>
