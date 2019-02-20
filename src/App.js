@@ -15,11 +15,6 @@ const DemonShanker2 = Loadable({
   loading: Loading
 });
 
-const MinecraftMap = Loadable({
-  loader: () => import('./routes/MinecraftMap'),
-  loading: Loading
-});
-
 class App extends Component {
   render() {
     return (
