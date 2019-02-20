@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Row, Col, Panel, Table, Image, ButtonGroup, Button, Glyphicon } from 'react-bootstrap';
+import { Jumbotron, Row, Col, Panel, Table, Image, Glyphicon } from 'react-bootstrap';
 
 class Home extends Component {
   render() {

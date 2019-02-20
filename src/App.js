@@ -20,6 +20,11 @@ const Photography = Loadable({
   loading: Loading
 });
 
+const YouTube = Loadable({
+  loader: () => import('./routes/YouTube'),
+  loading: Loading
+});
+
 class App extends Component {
   render() {
     return (
@@ -36,6 +41,7 @@ class App extends Component {
             <Nav>
               <NavItem componentClass={Link} href="/ludumdare" to="/ludumdare" active={window.location.pathname === '/ludumdare'}>Ludum Dare</NavItem>
               <NavItem componentClass={Link} href="/photography" to="/photography" active={window.location.pathname === '/photography'}>Photography</NavItem>
+              <NavItem componentClass={Link} href="/youtube" to="/youtube" active={window.location.pathname === '/youtube'}>YouTube</NavItem>
             </Nav>
 
           </Navbar>
@@ -45,6 +51,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/ludumdare" component={LudumDare} />
               <Route path="/photography" component={Photography} />
+              <Route path="/youtube" component={YouTube} />
             </Switch>
           </Grid>
         </div>
