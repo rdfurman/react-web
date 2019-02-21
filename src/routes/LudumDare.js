@@ -8,8 +8,8 @@ class DemonShanker2 extends Component {
     super(props);
 
     this.unityContent = new UnityContent(
-      "../demonshanker2/build/Builds.json",
-      "../demonshanker2/build/UnityLoader.js"
+      process.env.PUBLIC_URL + "/demonshanker2/build/Builds.json",
+      process.env.PUBLIC_URL + "/demonshanker2/build/UnityLoader.js"
     );
   }
 
