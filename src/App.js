@@ -30,7 +30,9 @@ class App extends Component {
     return (
       <BrowserRouter forceRefresh>
         <div>
-          <Navbar inverse fluid>
+          <Navbar inverse fluid expand="lg">
+
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
             <Navbar.Header>
               <Navbar.Brand>
@@ -38,11 +40,13 @@ class App extends Component {
               </Navbar.Brand>
             </Navbar.Header>
 
-            <Nav>
-              <NavItem componentClass={Link} href="/ludumdare" to="/ludumdare" active={window.location.pathname === '/ludumdare'}>Ludum Dare</NavItem>
-              <NavItem componentClass={Link} href="/photography" to="/photography" active={window.location.pathname === '/photography'}>Photography</NavItem>
-              <NavItem componentClass={Link} href="/youtube" to="/youtube" active={window.location.pathname === '/youtube'}>YouTube</NavItem>
-            </Nav>
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav>
+                <NavItem componentClass={Link} href="/ludumdare" to="/ludumdare" active={window.location.pathname === '/ludumdare'}>Ludum Dare</NavItem>
+                <NavItem componentClass={Link} href="/photography" to="/photography" active={window.location.pathname === '/photography'}>Photography</NavItem>
+                <NavItem componentClass={Link} href="/youtube" to="/youtube" active={window.location.pathname === '/youtube'}>YouTube</NavItem>
+              </Nav>
+            </Navbar.Collapse>
 
           </Navbar>
 
