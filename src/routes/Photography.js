@@ -10,7 +10,7 @@ class Photography extends Component {
           <Col sm={12}>
             <Carousel>
               <Carousel.Item>
-                <Image src="../images/IMG_20180806_101516.jpg" thumbnail />
+                <Image src="/images/IMG_20180806_101516.jpg" thumbnail />
               </Carousel.Item>
             </Carousel>
           </Col>
